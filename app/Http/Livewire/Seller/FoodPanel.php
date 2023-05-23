@@ -27,7 +27,11 @@ class FoodPanel extends Component
     {
         $this->reloadFoodTable();
         return view('livewire.seller.food-panel', [
+
             'Category' => $this->Category
+
         ]);
     }
+
+    
 }
