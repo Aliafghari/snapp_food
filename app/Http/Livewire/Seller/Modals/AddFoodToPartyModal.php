@@ -7,6 +7,7 @@ use App\Models\FoodParty;
 use Illuminate\Support\Facades\DB;
 use Livewire\Component;
 
+
 class AddFoodToPartyModal extends Component
 {
     public $foods;
