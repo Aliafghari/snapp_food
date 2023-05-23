@@ -7,8 +7,11 @@ use Livewire\Component;
 
 class DeleteFoodDiscountModal extends Component
 {
+
     public $food;
+
     public $deleteDiscountModalConfirm = false;
+    
     protected $listeners = ['deleteDiscount'];
 
     public function deleteDiscount(Food $id)
