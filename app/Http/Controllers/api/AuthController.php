@@ -67,7 +67,7 @@ class AuthController extends Controller
         }
 
         if (!$token = auth('api')->attempt($validator->validated())) {
-            return response()->json(['error' => 'Unauthorized'], 401);
+            return response()->json(['error' => 'You do not have access :(('], 401);
         }
 
         return $this->createNewToken($token);
