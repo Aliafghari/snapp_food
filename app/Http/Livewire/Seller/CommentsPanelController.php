@@ -15,6 +15,7 @@ class CommentsPanelController extends Component
         $this->totlaComment = Comment::where([['restaurant_detail_id', '=', \auth()->user()->restaurantDetail->id], ['user_id', '!=', auth()->user()->id], ['user_id', '!=', 1]])->get();
     }
 
+    
     public function render()
     {
         $this->reloadCommentTable();
