@@ -46,7 +46,7 @@
                                                     @if(Storage::disk('public')->exists("$pic->path"))
                                                         <div class="w-full h-56 image-fit zoom-in">
                                                             <img alt="Icewall Tailwind HTML Admin Template"
-                                                                 class="tooltip rounded"
+                                                                 class="card-img-top img-thumbnail"
                                                                  src="{{asset("storage/$pic->path")}}"
                                                                  title="بارگزاری شده در تاریخ : {{$pic->created_at}}"/>
                                                         </div>
