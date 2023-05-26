@@ -25,9 +25,14 @@ class nearbyRestaurants extends Controller
             $this->lat = $query->latitude;
             $this->long = $query->longitude;
             RestaurantDetail::all()->map(function ($value) {
-                $this->array[] = $value->select("*", DB::raw("6371 * acos(cos(radians(" . $this->lat . "))
+
+
+                //Haversine
+                $this->array[] = $value->select("*", DB::raw("6371000 * acos(cos(radians(" . $this->lat . "))
                                 * cos(radians(latitude)) * cos(radians(longitude) - radians(" . $this->long . "))
                                 + sin(radians(" . $this->lat . ")) * sin(radians(latitude))) AS distance"))->orderBy('distance')->get();
+
+
             });
             unset($this->array[1]);
             return $this->array;
