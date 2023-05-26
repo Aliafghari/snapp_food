@@ -29,10 +29,13 @@ class RestaurantLocationModal extends Component
         $this->validate();
 
         auth()->user()->restaurantDetail->latitude = $this->latitude;
+
         auth()->user()->restaurantDetail->longitude = $this->longitude;
+
         auth()->user()->restaurantDetail->save();
 
         $this->confirmRestaurantLocationModal = false;
+        
         $this->emitTo('livewire-toast', 'show', 'اطلاعات موقعیت مکانی با موفقیت بروز شد :)');
     }
 
