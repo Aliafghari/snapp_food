@@ -14770,3 +14770,897 @@ Ensure that the [name, id, data] of the Livewire component wasn't tampered with 
 #40 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\Ali\\\\Do...')
 #41 {main}
 "} 
+[2023-06-01 04:45:15] local.ERROR: View [layouts.index] not found. {"view":{"view":"C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\livewire\\livewire\\src\\Macros\\livewire-view-component.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-788466315 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#1657</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
+</samp>}
+</pre><script>Sfdump(\"sf-dump-788466315\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","view":"<pre class=sf-dump id=sf-dump-4506428 data-indent-pad=\"  \">\"<span class=sf-dump-str title=\"13 characters\">layouts.index</span>\"
+</pre><script>Sfdump(\"sf-dump-4506428\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","params":"<pre class=sf-dump id=sf-dump-160144219 data-indent-pad=\"  \"><span class=sf-dump-note>array:1</span> [<samp data-depth=1 class=sf-dump-expanded>
+  \"<span class=sf-dump-key>attributes</span>\" => <span class=sf-dump-note title=\"Illuminate\\View\\ComponentAttributeBag
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\View</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>ComponentAttributeBag</span> {<a class=sf-dump-ref>#1781</a><samp data-depth=2 class=sf-dump-compact>
+    #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: []
+  </samp>}
+</samp>]
+</pre><script>Sfdump(\"sf-dump-160144219\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","slotOrSection":"<pre class=sf-dump id=sf-dump-480801623 data-indent-pad=\"  \">\"<span class=sf-dump-str title=\"4 characters\">slot</span>\"
+</pre><script>Sfdump(\"sf-dump-480801623\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","manager":"<pre class=sf-dump id=sf-dump-1266554392 data-indent-pad=\"  \"><span class=sf-dump-note>Livewire\\LifecycleManager</span> {<a class=sf-dump-ref>#1667</a><samp data-depth=1 class=sf-dump-expanded>
+  +<span class=sf-dump-public title=\"Public property\">request</span>: <span class=sf-dump-note title=\"Livewire\\Request
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Livewire</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Request</span> {<a class=sf-dump-ref href=#sf-dump-1266554392-ref21664 title=\"2 occurrences\">#1664</a><samp data-depth=2 id=sf-dump-1266554392-ref21664 class=sf-dump-compact>
+    +<span class=sf-dump-public title=\"Public property\">fingerprint</span>: <span class=sf-dump-note>array:5</span> [<samp data-depth=3 class=sf-dump-compact>
+      \"<span class=sf-dump-key>id</span>\" => \"<span class=sf-dump-str title=\"20 characters\">QEHbCuMYHwO6WXhIYFZa</span>\"
+      \"<span class=sf-dump-key>name</span>\" => \"<span class=sf-dump-str title=\"10 characters\">index-page</span>\"
+      \"<span class=sf-dump-key>locale</span>\" => \"<span class=sf-dump-str title=\"2 characters\">en</span>\"
+      \"<span class=sf-dump-key>path</span>\" => \"<span class=sf-dump-str>/</span>\"
+      \"<span class=sf-dump-key>method</span>\" => \"<span class=sf-dump-str title=\"3 characters\">GET</span>\"
+    </samp>]
+    +<span class=sf-dump-public title=\"Public property\">updates</span>: []
+    +<span class=sf-dump-public title=\"Public property\">memo</span>: []
+  </samp>}
+  +<span class=sf-dump-public title=\"Public property\">instance</span>: <span class=sf-dump-note title=\"App\\Http\\Livewire\\IndexPage
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">App\\Http\\Livewire</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>IndexPage</span> {<a class=sf-dump-ref href=#sf-dump-1266554392-ref21682 title=\"2 occurrences\">#1682</a><samp data-depth=2 id=sf-dump-1266554392-ref21682 class=sf-dump-compact>
+    +<span class=sf-dump-public title=\"Public property\">id</span>: \"<span class=sf-dump-str title=\"20 characters\">QEHbCuMYHwO6WXhIYFZa</span>\"
+    #<span class=sf-dump-protected title=\"Protected property\">queryString</span>: []
+    #<span class=sf-dump-protected title=\"Protected property\">computedPropertyCache</span>: []
+    #<span class=sf-dump-protected title=\"Protected property\">shouldSkipRender</span>: <span class=sf-dump-const>null</span>
+    #<span class=sf-dump-protected title=\"Protected property\">preRenderedView</span>: <span class=sf-dump-note title=\"Illuminate\\View\\View
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\View</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>View</span> {<a class=sf-dump-ref>#1772</a><samp data-depth=3 class=sf-dump-compact>
+      #<span class=sf-dump-protected title=\"Protected property\">factory</span>: <span class=sf-dump-note title=\"Illuminate\\View\\Factory
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\View</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Factory</span> {<a class=sf-dump-ref>#1646</a> &#8230;23}
+      #<span class=sf-dump-protected title=\"Protected property\">engine</span>: <span class=sf-dump-note title=\"Livewire\\LivewireViewCompilerEngine
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Livewire</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>LivewireViewCompilerEngine</span> {<a class=sf-dump-ref>#1764</a> &#8230;5}
+      #<span class=sf-dump-protected title=\"Protected property\">view</span>: \"<span class=sf-dump-str title=\"19 characters\">livewire.index-page</span>\"
+      #<span class=sf-dump-protected title=\"Protected property\">data</span>: <span class=sf-dump-note>array:8</span> [ &#8230;8]
+      #<span class=sf-dump-protected title=\"Protected property\">path</span>: \"<span class=sf-dump-str title=\"86 characters\">C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\resources\\views/livewire/index-page.blade.php</span>\"
+    </samp>}
+    #<span class=sf-dump-protected title=\"Protected property\">forStack</span>: []
+    #<span class=sf-dump-protected title=\"Protected property\">errorBag</span>: <span class=sf-dump-note title=\"Illuminate\\Support\\MessageBag
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Support</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>MessageBag</span> {<a class=sf-dump-ref href=#sf-dump-1266554392-ref21675 title=\"2 occurrences\">#1675</a><samp data-depth=3 id=sf-dump-1266554392-ref21675 class=sf-dump-compact>
+      #<span class=sf-dump-protected title=\"Protected property\">messages</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">format</span>: \"<span class=sf-dump-str title=\"8 characters\">:message</span>\"
+    </samp>}
+    #<span class=sf-dump-protected title=\"Protected property\">withValidatorCallback</span>: <span class=sf-dump-const>null</span>
+    #<span class=sf-dump-protected title=\"Protected property\">eventQueue</span>: []
+    #<span class=sf-dump-protected title=\"Protected property\">dispatchQueue</span>: []
+    #<span class=sf-dump-protected title=\"Protected property\">listeners</span>: []
+    +<span class=sf-dump-public title=\"Public property\">redirectTo</span>: <span class=sf-dump-const>null</span>
+    #<span class=sf-dump-protected title=\"Protected property\">renderedChildren</span>: []
+    #<span class=sf-dump-protected title=\"Protected property\">previouslyRenderedChildren</span>: []
+    +<span class=sf-dump-public title=\"Public property\">Restaurant</span>: <span class=sf-dump-note title=\"Illuminate\\Database\\Eloquent\\Collection
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Database\\Eloquent</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Collection</span> {<a class=sf-dump-ref href=#sf-dump-1266554392-ref21770 title=\"2 occurrences\">#1770</a><samp data-depth=3 id=sf-dump-1266554392-ref21770 class=sf-dump-compact>
+      #<span class=sf-dump-protected title=\"Protected property\">items</span>: <span class=sf-dump-note>array:2</span> [ &#8230;2]
+      #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+    </samp>}
+    +<span class=sf-dump-public title=\"Public property\">FoodPartys</span>: <span class=sf-dump-const>null</span>
+    +<span class=sf-dump-public title=\"Public property\">Banner</span>: <span class=sf-dump-note title=\"Illuminate\\Database\\Eloquent\\Collection
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Database\\Eloquent</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Collection</span> {<a class=sf-dump-ref href=#sf-dump-1266554392-ref21719 title=\"2 occurrences\">#1719</a><samp data-depth=3 id=sf-dump-1266554392-ref21719 class=sf-dump-compact>
+      #<span class=sf-dump-protected title=\"Protected property\">items</span>: <span class=sf-dump-note>array:18</span> [ &#8230;18]
+      #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+    </samp>}
+    +<span class=sf-dump-public title=\"Public property\">FoodParty</span>: []
+  </samp>}
+  +<span class=sf-dump-public title=\"Public property\">response</span>: <span class=sf-dump-note title=\"Livewire\\Response
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Livewire</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Response</span> {<a class=sf-dump-ref>#1711</a><samp data-depth=2 class=sf-dump-compact>
+    +<span class=sf-dump-public title=\"Public property\">request</span>: <span class=sf-dump-note title=\"Livewire\\Request
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Livewire</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Request</span> {<a class=sf-dump-ref href=#sf-dump-1266554392-ref21664 title=\"2 occurrences\">#1664</a>}
+    +<span class=sf-dump-public title=\"Public property\">fingerprint</span>: <span class=sf-dump-note>array:6</span> [<samp data-depth=3 class=sf-dump-compact>
+      \"<span class=sf-dump-key>id</span>\" => \"<span class=sf-dump-str title=\"20 characters\">QEHbCuMYHwO6WXhIYFZa</span>\"
+      \"<span class=sf-dump-key>name</span>\" => \"<span class=sf-dump-str title=\"10 characters\">index-page</span>\"
+      \"<span class=sf-dump-key>locale</span>\" => \"<span class=sf-dump-str title=\"2 characters\">en</span>\"
+      \"<span class=sf-dump-key>path</span>\" => \"<span class=sf-dump-str>/</span>\"
+      \"<span class=sf-dump-key>method</span>\" => \"<span class=sf-dump-str title=\"3 characters\">GET</span>\"
+      \"<span class=sf-dump-key>v</span>\" => \"<span class=sf-dump-str title=\"3 characters\">acj</span>\"
+    </samp>]
+    +<span class=sf-dump-public title=\"Public property\">effects</span>: <span class=sf-dump-note>array:2</span> [<samp data-depth=3 class=sf-dump-compact>
+      \"<span class=sf-dump-key>html</span>\" => \"\"\"
+        <span class=sf-dump-str title=\"16677 characters\">&lt;div wire:id=&quot;QEHbCuMYHwO6WXhIYFZa&quot; wire:initial-data=&quot;{&amp;quot;fingerprint&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;QEHbCuMYHwO6WXhIYFZa&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;index-page&amp;quot;,&amp;quot;locale&amp;quot;:&amp;quot;en&amp;quot;,&amp;quot;path&amp;quot;:&amp;quot;\\/&amp;quot;,&amp;quot;method&amp;quot;:&amp;quot;GET&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;acj&amp;quot;},&amp;quot;effects&amp;quot;:{&amp;quot;listeners&amp;quot;:[]},&amp;quot;serverMemo&amp;quot;:{&amp;quot;children&amp;quot;:[],&amp;quot;errors&amp;quot;:[],&amp;quot;htmlHash&amp;quot;:&amp;quot;e68dd90c&amp;quot;,&amp;quot;data&amp;quot;:{&amp;quot;Restaurant&amp;quot;:[],&amp;quot;FoodPartys&amp;quot;:null,&amp;quot;Banner&amp;quot;:[],&amp;quot;FoodParty&amp;quot;:[]},&amp;quot;dataMeta&amp;quot;:{&amp;quot;modelCollections&amp;quot;:{&amp;quot;Restaurant&amp;quot;:{&amp;quot;class&amp;quot;:&amp;quot;App\\\\Models\\\\RestaurantDetail&amp;quot;,&amp;quot;id&amp;quot;:[1,2],&amp;quot;relations&amp;quot;:[&amp;quot;Orders&amp;quot;,&amp;quot;food&amp;quot;],&amp;quot;connection&amp;quot;:&amp;quot;mysql&amp;quot;,&amp;quot;collectionClass&amp;quot;:null},&amp;quot;Banner&amp;quot;:{&amp;quot;class&amp;quot;:&amp;quot;App\\\\Models\\\\Banner&amp;quot;,&amp;quot;id&amp;quot;:[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],&amp;quot;relations&amp;quot;:[],&amp;quot;connection&amp;quot;:&amp;quot;mysql&amp;quot;,&amp;quot;collectionClass&amp;quot;:null}}},&amp;quot;checksum&amp;quot;:&amp;quot;11d4001870fabb17aa1b86d3d33a59dfa0fcf26d366577cc3ba90ad429fe0533&amp;quot;}}&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">    &lt;div class=&quot;col-span-12 mt-8&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">        &lt;br&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">        &lt;br&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">        &lt;h1&gt;welcome&lt;/h1&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">    &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">&lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\"><span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">&lt;div class=&quot;py-1 px-2 rounded-xl text-xs bg-cyan-400 text-white cursor-pointer font-medium&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">    &lt;div class=&quot;col-span-12 mt-8&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\"><span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">        &lt;h2<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">            class=&quot;text-lg font-medium truncate ml-5 mt-8 flex-1 w-full btn btn-outline-danger rounded-full mx-auto relative text-right bg-white&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">            <span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">            &lt;b&gt;&#1578;&#1576;&#1604;&#1740;&#1594;&#1575;&#1578;&lt;/b&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\"><span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">        &lt;/h2&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">        <span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\"><span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">        &lt;div class=&quot;grid gap-6 mt-2&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">            &lt;div class=&quot;mt-5 intro-x&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                &lt;div class=&quot; w-full&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                    &lt;div class=&quot;tiny-slider&quot; id=&quot;important-notes&quot; style=&quot;transform: none&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                                                    &lt;div class=&quot;h-full rounded-md&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;img alt=&quot;Icewall Tailwind HTML Admin Template&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        class=&quot;image-fit rounded-full h-full font-medium w-full flex items-center justify-center text-2xl&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        src=&quot;http://127.0.0.1:8000/storage/photos/Banners/AUf3Rssou4ZXjk5bOOyyF3Gus5GSLAyqiQHla4Ng.png.png&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                            &lt;div class=&quot;h-full rounded-md&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;img alt=&quot;Icewall Tailwind HTML Admin Template&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        class=&quot;image-fit rounded-full h-full font-medium w-full flex items-center justify-center text-2xl&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        src=&quot;http://127.0.0.1:8000/storage/photos/Banners/ka1gCo0TmLO2dETWVOrkFLhCVmcVCTcTRcpOIU6p.jpg.jpg&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                            &lt;div class=&quot;h-full rounded-md&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;img alt=&quot;Icewall Tailwind HTML Admin Template&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        class=&quot;image-fit rounded-full h-full font-medium w-full flex items-center justify-center text-2xl&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        src=&quot;http://127.0.0.1:8000/storage/public/photos/Banners/0IDpOA6opHopvcl5eYldgIgyamZnC91tCgcrVfu8.jpg.jpg&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                            &lt;div class=&quot;h-full rounded-md&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;img alt=&quot;Icewall Tailwind HTML Admin Template&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        class=&quot;image-fit rounded-full h-full font-medium w-full flex items-center justify-center text-2xl&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        src=&quot;http://127.0.0.1:8000/storage/photos/Banners/ynZuPVCxHPxzjWAMKVq4p9nLAkFM26kCYhQq0rfg.png.png&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                            &lt;div class=&quot;h-full rounded-md&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;img alt=&quot;Icewall Tailwind HTML Admin Template&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        class=&quot;image-fit rounded-full h-full font-medium w-full flex items-center justify-center text-2xl&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        src=&quot;http://127.0.0.1:8000/storage/photos/Banners/nz6CDML9C03ilaoT2pJJSvIc167xqMdSiU82YJZg.png.png&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                            &lt;div class=&quot;h-full rounded-md&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;img alt=&quot;Icewall Tailwind HTML Admin Template&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        class=&quot;image-fit rounded-full h-full font-medium w-full flex items-center justify-center text-2xl&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        src=&quot;http://127.0.0.1:8000/storage/photos/Banners/mRzJgfG7mt5DwaS9yj1Fz8VRXNeuiS1dXIwK9WYr.jpgjpg&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                            &lt;div class=&quot;h-full rounded-md&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;img alt=&quot;Icewall Tailwind HTML Admin Template&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        class=&quot;image-fit rounded-full h-full font-medium w-full flex items-center justify-center text-2xl&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        src=&quot;http://127.0.0.1:8000/storage/photos/Banners/ykwBZwYxbo43DJtBZZaAZjuQiKsek1UMuZapl4Ba.png.png&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                            &lt;div class=&quot;h-full rounded-md&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;img alt=&quot;Icewall Tailwind HTML Admin Template&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        class=&quot;image-fit rounded-full h-full font-medium w-full flex items-center justify-center text-2xl&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        src=&quot;http://127.0.0.1:8000/storage/photos/Banners/bftqVsWCQPnGWteK2LrH1VTKe5qIUrQjSOjGvQud.png.&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                            &lt;div class=&quot;h-full rounded-md&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;img alt=&quot;Icewall Tailwind HTML Admin Template&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        class=&quot;image-fit rounded-full h-full font-medium w-full flex items-center justify-center text-2xl&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        src=&quot;http://127.0.0.1:8000/storage/photos/Banners/60LYzE46lfCzIx3e7mV96JHCWY6AqZN7kqkZhIDp.jpg.jpg&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                            &lt;div class=&quot;h-full rounded-md&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;img alt=&quot;Icewall Tailwind HTML Admin Template&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        class=&quot;image-fit rounded-full h-full font-medium w-full flex items-center justify-center text-2xl&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        src=&quot;http://127.0.0.1:8000/storage/photos/Banners/Annotation_2023-05-10_152118.png.png&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                            &lt;div class=&quot;h-full rounded-md&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;img alt=&quot;Icewall Tailwind HTML Admin Template&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        class=&quot;image-fit rounded-full h-full font-medium w-full flex items-center justify-center text-2xl&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        src=&quot;http://127.0.0.1:8000/storage/photos/Banners/1odZyWr826ODcIghalrJtA5PhWp7WswvAM4qEH2v.png.png&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                            &lt;div class=&quot;h-full rounded-md&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;img alt=&quot;Icewall Tailwind HTML Admin Template&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        class=&quot;image-fit rounded-full h-full font-medium w-full flex items-center justify-center text-2xl&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        src=&quot;http://127.0.0.1:8000/storage/photos/Banners/GITb7GneHqBgj5prQZ0vch5gPWoCx3y7svlhI7jM.png&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                            &lt;div class=&quot;h-full rounded-md&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;img alt=&quot;Icewall Tailwind HTML Admin Template&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        class=&quot;image-fit rounded-full h-full font-medium w-full flex items-center justify-center text-2xl&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        src=&quot;http://127.0.0.1:8000/storage/photos/Banners/ACFSKtAwczpdNkJUKbDC7Pqrv8YQAH6i2uFAhPrK.png.png&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                            &lt;div class=&quot;h-full rounded-md&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;img alt=&quot;Icewall Tailwind HTML Admin Template&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        class=&quot;image-fit rounded-full h-full font-medium w-full flex items-center justify-center text-2xl&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        src=&quot;http://127.0.0.1:8000/storage/photos/Banners/Ovtx7rJExNMkfqkEFXo85764StqRae7AketBZxpk.png.png&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                            &lt;div class=&quot;h-full rounded-md&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;img alt=&quot;Icewall Tailwind HTML Admin Template&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        class=&quot;image-fit rounded-full h-full font-medium w-full flex items-center justify-center text-2xl&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        src=&quot;http://127.0.0.1:8000/storage/photos/Banners/TlnDp3IZFmGuSA016aUnTK5vB6S1tXqKCVStJ7LS.png&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                            &lt;div class=&quot;h-full rounded-md&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;img alt=&quot;Icewall Tailwind HTML Admin Template&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        class=&quot;image-fit rounded-full h-full font-medium w-full flex items-center justify-center text-2xl&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        src=&quot;http://127.0.0.1:8000/storage/photos/Banners/SZq6i0fcYOL6CizU28rnrWwqJuG2mNOHi19Rzna4.png&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                            &lt;div class=&quot;h-full rounded-md&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;img alt=&quot;Icewall Tailwind HTML Admin Template&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        class=&quot;image-fit rounded-full h-full font-medium w-full flex items-center justify-center text-2xl&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        src=&quot;http://127.0.0.1:8000/storage/photos/Banners/BAHL0zD7waiBcPqnrbaqkuZraFym5UQYazn3ysTN.png&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                            &lt;div class=&quot;h-full rounded-md&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;img alt=&quot;Icewall Tailwind HTML Admin Template&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        class=&quot;image-fit rounded-full h-full font-medium w-full flex items-center justify-center text-2xl&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        src=&quot;http://127.0.0.1:8000/storage/photos/Banners/6sBT4JqCraoP0u4OgcSWMoQvnyOjoF1cq6wDX3Ee.png&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                                        &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">            &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">        &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">    &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">&lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\"><span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\"><span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\"><span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\"><span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">&lt;div class=&quot;py-1 px-2 rounded-xl text-xs bg-cyan-400 text-white cursor-pointer font-medium&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">    &lt;h2<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">        class=&quot;text-lg font-medium truncate ml-5 mt-8 flex-1 w-full btn btn-outline-warning rounded-full mx-auto relative text-right bg-white&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">        <span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">        &lt;b&gt;&#1588;&#1593;&#1576;&#1607; &#1607;&#1575;&lt;/b&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">    &lt;/h2&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">    &lt;div class=&quot;grid grid-cols-12 gap-6 mt-5&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;div class=&quot;col-span-12 sm:col-span-6 xl:col-span-3 intro-y&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                    &lt;div class=&quot;report-box zoom-in&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                        &lt;div class=&quot;box p-5&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                            &lt;div class=&quot;flex&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;i data-feather=&quot;shopping-cart&quot; class=&quot;report-box__icon text-theme-21&quot;&gt;&lt;/i&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;div class=&quot;mr-auto&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;div class=&quot;report-box__indicator bg-theme-10 tooltip cursor-pointer&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        title=&quot;&#1578;&#1593;&#1583;&#1575;&#1583; &#1601;&#1585;&#1608;&#1588;&quot;&gt; 2 &lt;i data-feather=&quot;chevron-up&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                            class=&quot;w-4 h-4 mr-0.5&quot;&gt;&lt;/i&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;div class=&quot;mr-auto&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                                            &lt;div class=&quot;report-box__indicator bg-red-500 tooltip cursor-pointer&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                            title=&quot;&#1608;&#1590;&#1593;&#1740;&#1578; &#1601;&#1585;&#1608;&#1588;&#1711;&#1575;&#1607;&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                            &#1576;&#1587;&#1578;&#1607; &#1575;&#1587;&#1578;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                            &lt;i data-feather=&quot;chevron-up&quot; class=&quot;w-4 h-4 mr-0.5&quot;&gt;&lt;/i&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                                    &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                            &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                            &lt;div class=&quot;text-xl font-bold leading-8 mt-6 text-theme-17&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;span class=&quot;text-sm text-gray-700&quot;&gt;&#1578;&#1593;&#1583;&#1575;&#1583; &#1594;&#1584;&#1575;&#1740; &#1605;&#1608;&#1580;&#1608;&#1583; :&lt;/span&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                1<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                            &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                            &lt;div class=&quot;text-xl font-bold leading-8 mt-6 text-theme-17&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;span class=&quot;text-sm text-gray-700&quot;&gt;&#1606;&#1575;&#1605; &#1585;&#1587;&#1578;&#1608;&#1585;&#1575;&#1606; :&lt;/span&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &#1580;&#1608;&#1575;&#1606;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                            &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                            &lt;div class=&quot;text-xl font-bold leading-8 mt-6 text-theme-17&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                                &lt;img src=&quot;http://127.0.0.1:8000/storage/photos/Restaurant/&#1580;&#1608;&#1575;&#1606;.jpg&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    alt=&quot;RestaurantBaner&quot; /&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                            &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                        &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                    &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                            &lt;div class=&quot;col-span-12 sm:col-span-6 xl:col-span-3 intro-y&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                    &lt;div class=&quot;report-box zoom-in&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                        &lt;div class=&quot;box p-5&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                            &lt;div class=&quot;flex&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;i data-feather=&quot;shopping-cart&quot; class=&quot;report-box__icon text-theme-21&quot;&gt;&lt;/i&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;div class=&quot;mr-auto&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;div class=&quot;report-box__indicator bg-theme-10 tooltip cursor-pointer&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        title=&quot;&#1578;&#1593;&#1583;&#1575;&#1583; &#1601;&#1585;&#1608;&#1588;&quot;&gt; 1 &lt;i data-feather=&quot;chevron-up&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                            class=&quot;w-4 h-4 mr-0.5&quot;&gt;&lt;/i&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;div class=&quot;mr-auto&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                                            &lt;div class=&quot;report-box__indicator bg-red-500 tooltip cursor-pointer&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                            title=&quot;&#1608;&#1590;&#1593;&#1740;&#1578; &#1601;&#1585;&#1608;&#1588;&#1711;&#1575;&#1607;&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                            &#1576;&#1587;&#1578;&#1607; &#1575;&#1587;&#1578;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                            &lt;i data-feather=&quot;chevron-up&quot; class=&quot;w-4 h-4 mr-0.5&quot;&gt;&lt;/i&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                                    &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                            &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                            &lt;div class=&quot;text-xl font-bold leading-8 mt-6 text-theme-17&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;span class=&quot;text-sm text-gray-700&quot;&gt;&#1578;&#1593;&#1583;&#1575;&#1583; &#1594;&#1584;&#1575;&#1740; &#1605;&#1608;&#1580;&#1608;&#1583; :&lt;/span&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                2<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                            &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                            &lt;div class=&quot;text-xl font-bold leading-8 mt-6 text-theme-17&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;span class=&quot;text-sm text-gray-700&quot;&gt;&#1606;&#1575;&#1605; &#1585;&#1587;&#1578;&#1608;&#1585;&#1575;&#1606; :&lt;/span&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &#1588;&#1575;&#1606;&#1583;&#1740;&#1586;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                            &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                            &lt;div class=&quot;text-xl font-bold leading-8 mt-6 text-theme-17&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                                &lt;img src=&quot;http://127.0.0.1:8000/storage/photos/Restaurant/&#1588;&#1575;&#1606;&#1583;&#1740;&#1586;.jpg&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    alt=&quot;RestaurantBaner&quot; /&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                            &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                        &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                    &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                        &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">    &lt;br&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">    &lt;br&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">&lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\"><span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\"><span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\"><span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">&lt;div class=&quot;py-1 px-2 rounded-xl text-xs bg-cyan-400 text-white cursor-pointer font-medium&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">    &lt;h2<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">        class=&quot;text-lg font-medium truncate ml-5 mt-8 flex-1 w-full btn btn-outline-success rounded-full mx-auto relative text-right bg-white&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">        &lt;b&gt;&#1601;&#1608;&#1583;&#1662;&#1575;&#1585;&#1578;&#1740;&lt;/b&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">    &lt;/h2&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">    &lt;div class=&quot;grid grid-cols-4 gap-6 mt-2&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">        &lt;div class=&quot;mt-5 intro-x&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">            &lt;div class=&quot;box zoom-in w-full&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                &lt;div class=&quot;tiny-slider&quot; id=&quot;important-notes&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">            &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">        &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">    &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">&lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\"><span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">&lt;!-- Livewire Component wire-end:QEHbCuMYHwO6WXhIYFZa --&gt;</span>
+        \"\"\"
+      \"<span class=sf-dump-key>listeners</span>\" => []
+    </samp>]
+    +<span class=sf-dump-public title=\"Public property\">memo</span>: <span class=sf-dump-note>array:6</span> [<samp data-depth=3 class=sf-dump-compact>
+      \"<span class=sf-dump-key>children</span>\" => []
+      \"<span class=sf-dump-key>errors</span>\" => []
+      \"<span class=sf-dump-key>htmlHash</span>\" => \"<span class=sf-dump-str title=\"8 characters\">e68dd90c</span>\"
+      \"<span class=sf-dump-key>data</span>\" => <span class=sf-dump-note>array:4</span> [ &#8230;4]
+      \"<span class=sf-dump-key>dataMeta</span>\" => <span class=sf-dump-note>array:1</span> [ &#8230;1]
+      \"<span class=sf-dump-key>checksum</span>\" => \"<span class=sf-dump-str title=\"64 characters\">11d4001870fabb17aa1b86d3d33a59dfa0fcf26d366577cc3ba90ad429fe0533</span>\"
+    </samp>]
+  </samp>}
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1266554392\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+"}},"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): View [layouts.index] not found. at C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php:137)
+[stacktrace]
+#0 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php(79): Illuminate\\View\\FileViewFinder->findInPaths('layouts.index', Array)
+#1 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Factory.php(138): Illuminate\\View\\FileViewFinder->find('layouts.index')
+#2 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Concerns\\ManagesComponents.php(104): Illuminate\\View\\Factory->make('layouts.index', Array)
+#3 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\livewire\\livewire\\src\\Macros\\livewire-view-component.blade.php(5): Illuminate\\View\\Factory->renderComponent()
+#4 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('C:\\\\Users\\\\Ali\\\\Do...')
+#5 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#6 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Users\\\\Ali\\\\Do...', Array)
+#7 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\livewire\\livewire\\src\\ComponentConcerns\\RendersLivewireComponents.php(69): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Users\\\\Ali\\\\Do...', Array)
+#8 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Livewire\\LivewireViewCompilerEngine->evaluatePath('C:\\\\Users\\\\Ali\\\\Do...', Array)
+#9 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\livewire\\livewire\\src\\ComponentConcerns\\RendersLivewireComponents.php(35): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Users\\\\Ali\\\\Do...', Array)
+#10 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Livewire\\LivewireViewCompilerEngine->get('C:\\\\Users\\\\Ali\\\\Do...', Array)
+#11 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#12 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#13 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(69): Illuminate\\View\\View->render()
+#14 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#15 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(906): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#16 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(875): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#17 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#18 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#19 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#21 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#22 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#27 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(799): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#34 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#36 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\livewire\\livewire\\src\\DisableBrowserCache.php(19): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#40 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Livewire\\DisableBrowserCache->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#48 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#49 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#50 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#51 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#52 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#53 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#54 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#55 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#56 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#57 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#58 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#59 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\Ali\\\\Do...')
+#60 {main}
+
+[previous exception] [object] (InvalidArgumentException(code: 0): View [layouts.index] not found. at C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php:137)
+[stacktrace]
+#0 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php(79): Illuminate\\View\\FileViewFinder->findInPaths('layouts.index', Array)
+#1 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Factory.php(138): Illuminate\\View\\FileViewFinder->find('layouts.index')
+#2 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Concerns\\ManagesComponents.php(104): Illuminate\\View\\Factory->make('layouts.index', Array)
+#3 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\storage\\framework\\views\\1f8f034a5f7ce6f2c267827b7074a1cb094cf741.php(6): Illuminate\\View\\Factory->renderComponent()
+#4 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('C:\\\\Users\\\\Ali\\\\Do...')
+#5 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#6 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Users\\\\Ali\\\\Do...', Array)
+#7 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\livewire\\livewire\\src\\ComponentConcerns\\RendersLivewireComponents.php(69): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Users\\\\Ali\\\\Do...', Array)
+#8 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Livewire\\LivewireViewCompilerEngine->evaluatePath('C:\\\\Users\\\\Ali\\\\Do...', Array)
+#9 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\livewire\\livewire\\src\\ComponentConcerns\\RendersLivewireComponents.php(35): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Users\\\\Ali\\\\Do...', Array)
+#10 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Livewire\\LivewireViewCompilerEngine->get('C:\\\\Users\\\\Ali\\\\Do...', Array)
+#11 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#12 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#13 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(69): Illuminate\\View\\View->render()
+#14 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#15 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(906): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#16 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(875): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#17 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#18 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#19 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#21 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#22 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#27 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(799): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#34 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#36 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\livewire\\livewire\\src\\DisableBrowserCache.php(19): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#40 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Livewire\\DisableBrowserCache->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#48 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#49 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#50 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#51 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#52 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#53 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#54 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#55 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#56 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#57 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#58 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#59 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\Ali\\\\Do...')
+#60 {main}
+"} 
+[2023-06-01 04:45:32] local.ERROR: View [layouts.index] not found. {"view":{"view":"C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\livewire\\livewire\\src\\Macros\\livewire-view-component.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-1049321601 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#1656</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1049321601\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","view":"<pre class=sf-dump id=sf-dump-395255579 data-indent-pad=\"  \">\"<span class=sf-dump-str title=\"13 characters\">layouts.index</span>\"
+</pre><script>Sfdump(\"sf-dump-395255579\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","params":"<pre class=sf-dump id=sf-dump-2069616654 data-indent-pad=\"  \"><span class=sf-dump-note>array:1</span> [<samp data-depth=1 class=sf-dump-expanded>
+  \"<span class=sf-dump-key>attributes</span>\" => <span class=sf-dump-note title=\"Illuminate\\View\\ComponentAttributeBag
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\View</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>ComponentAttributeBag</span> {<a class=sf-dump-ref>#1781</a><samp data-depth=2 class=sf-dump-compact>
+    #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: []
+  </samp>}
+</samp>]
+</pre><script>Sfdump(\"sf-dump-2069616654\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","slotOrSection":"<pre class=sf-dump id=sf-dump-1071719969 data-indent-pad=\"  \">\"<span class=sf-dump-str title=\"4 characters\">slot</span>\"
+</pre><script>Sfdump(\"sf-dump-1071719969\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","manager":"<pre class=sf-dump id=sf-dump-265655310 data-indent-pad=\"  \"><span class=sf-dump-note>Livewire\\LifecycleManager</span> {<a class=sf-dump-ref>#1687</a><samp data-depth=1 class=sf-dump-expanded>
+  +<span class=sf-dump-public title=\"Public property\">request</span>: <span class=sf-dump-note title=\"Livewire\\Request
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Livewire</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Request</span> {<a class=sf-dump-ref href=#sf-dump-265655310-ref21675 title=\"2 occurrences\">#1675</a><samp data-depth=2 id=sf-dump-265655310-ref21675 class=sf-dump-compact>
+    +<span class=sf-dump-public title=\"Public property\">fingerprint</span>: <span class=sf-dump-note>array:5</span> [<samp data-depth=3 class=sf-dump-compact>
+      \"<span class=sf-dump-key>id</span>\" => \"<span class=sf-dump-str title=\"20 characters\">4A2wyOGLYdnPtAkDbIWV</span>\"
+      \"<span class=sf-dump-key>name</span>\" => \"<span class=sf-dump-str title=\"10 characters\">index-page</span>\"
+      \"<span class=sf-dump-key>locale</span>\" => \"<span class=sf-dump-str title=\"2 characters\">en</span>\"
+      \"<span class=sf-dump-key>path</span>\" => \"<span class=sf-dump-str>/</span>\"
+      \"<span class=sf-dump-key>method</span>\" => \"<span class=sf-dump-str title=\"3 characters\">GET</span>\"
+    </samp>]
+    +<span class=sf-dump-public title=\"Public property\">updates</span>: []
+    +<span class=sf-dump-public title=\"Public property\">memo</span>: []
+  </samp>}
+  +<span class=sf-dump-public title=\"Public property\">instance</span>: <span class=sf-dump-note title=\"App\\Http\\Livewire\\IndexPage
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">App\\Http\\Livewire</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>IndexPage</span> {<a class=sf-dump-ref href=#sf-dump-265655310-ref21685 title=\"2 occurrences\">#1685</a><samp data-depth=2 id=sf-dump-265655310-ref21685 class=sf-dump-compact>
+    +<span class=sf-dump-public title=\"Public property\">id</span>: \"<span class=sf-dump-str title=\"20 characters\">4A2wyOGLYdnPtAkDbIWV</span>\"
+    #<span class=sf-dump-protected title=\"Protected property\">queryString</span>: []
+    #<span class=sf-dump-protected title=\"Protected property\">computedPropertyCache</span>: []
+    #<span class=sf-dump-protected title=\"Protected property\">shouldSkipRender</span>: <span class=sf-dump-const>null</span>
+    #<span class=sf-dump-protected title=\"Protected property\">preRenderedView</span>: <span class=sf-dump-note title=\"Illuminate\\View\\View
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\View</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>View</span> {<a class=sf-dump-ref>#1772</a><samp data-depth=3 class=sf-dump-compact>
+      #<span class=sf-dump-protected title=\"Protected property\">factory</span>: <span class=sf-dump-note title=\"Illuminate\\View\\Factory
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\View</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Factory</span> {<a class=sf-dump-ref>#1657</a> &#8230;23}
+      #<span class=sf-dump-protected title=\"Protected property\">engine</span>: <span class=sf-dump-note title=\"Livewire\\LivewireViewCompilerEngine
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Livewire</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>LivewireViewCompilerEngine</span> {<a class=sf-dump-ref>#1764</a> &#8230;5}
+      #<span class=sf-dump-protected title=\"Protected property\">view</span>: \"<span class=sf-dump-str title=\"19 characters\">livewire.index-page</span>\"
+      #<span class=sf-dump-protected title=\"Protected property\">data</span>: <span class=sf-dump-note>array:8</span> [ &#8230;8]
+      #<span class=sf-dump-protected title=\"Protected property\">path</span>: \"<span class=sf-dump-str title=\"86 characters\">C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\resources\\views/livewire/index-page.blade.php</span>\"
+    </samp>}
+    #<span class=sf-dump-protected title=\"Protected property\">forStack</span>: []
+    #<span class=sf-dump-protected title=\"Protected property\">errorBag</span>: <span class=sf-dump-note title=\"Illuminate\\Support\\MessageBag
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Support</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>MessageBag</span> {<a class=sf-dump-ref href=#sf-dump-265655310-ref21672 title=\"2 occurrences\">#1672</a><samp data-depth=3 id=sf-dump-265655310-ref21672 class=sf-dump-compact>
+      #<span class=sf-dump-protected title=\"Protected property\">messages</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">format</span>: \"<span class=sf-dump-str title=\"8 characters\">:message</span>\"
+    </samp>}
+    #<span class=sf-dump-protected title=\"Protected property\">withValidatorCallback</span>: <span class=sf-dump-const>null</span>
+    #<span class=sf-dump-protected title=\"Protected property\">eventQueue</span>: []
+    #<span class=sf-dump-protected title=\"Protected property\">dispatchQueue</span>: []
+    #<span class=sf-dump-protected title=\"Protected property\">listeners</span>: []
+    +<span class=sf-dump-public title=\"Public property\">redirectTo</span>: <span class=sf-dump-const>null</span>
+    #<span class=sf-dump-protected title=\"Protected property\">renderedChildren</span>: []
+    #<span class=sf-dump-protected title=\"Protected property\">previouslyRenderedChildren</span>: []
+    +<span class=sf-dump-public title=\"Public property\">Restaurant</span>: <span class=sf-dump-note title=\"Illuminate\\Database\\Eloquent\\Collection
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Database\\Eloquent</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Collection</span> {<a class=sf-dump-ref href=#sf-dump-265655310-ref21770 title=\"2 occurrences\">#1770</a><samp data-depth=3 id=sf-dump-265655310-ref21770 class=sf-dump-compact>
+      #<span class=sf-dump-protected title=\"Protected property\">items</span>: <span class=sf-dump-note>array:2</span> [ &#8230;2]
+      #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+    </samp>}
+    +<span class=sf-dump-public title=\"Public property\">FoodPartys</span>: <span class=sf-dump-const>null</span>
+    +<span class=sf-dump-public title=\"Public property\">Banner</span>: <span class=sf-dump-note title=\"Illuminate\\Database\\Eloquent\\Collection
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Database\\Eloquent</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Collection</span> {<a class=sf-dump-ref href=#sf-dump-265655310-ref21719 title=\"2 occurrences\">#1719</a><samp data-depth=3 id=sf-dump-265655310-ref21719 class=sf-dump-compact>
+      #<span class=sf-dump-protected title=\"Protected property\">items</span>: <span class=sf-dump-note>array:18</span> [ &#8230;18]
+      #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+    </samp>}
+    +<span class=sf-dump-public title=\"Public property\">FoodParty</span>: []
+  </samp>}
+  +<span class=sf-dump-public title=\"Public property\">response</span>: <span class=sf-dump-note title=\"Livewire\\Response
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Livewire</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Response</span> {<a class=sf-dump-ref>#1711</a><samp data-depth=2 class=sf-dump-compact>
+    +<span class=sf-dump-public title=\"Public property\">request</span>: <span class=sf-dump-note title=\"Livewire\\Request
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Livewire</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Request</span> {<a class=sf-dump-ref href=#sf-dump-265655310-ref21675 title=\"2 occurrences\">#1675</a>}
+    +<span class=sf-dump-public title=\"Public property\">fingerprint</span>: <span class=sf-dump-note>array:6</span> [<samp data-depth=3 class=sf-dump-compact>
+      \"<span class=sf-dump-key>id</span>\" => \"<span class=sf-dump-str title=\"20 characters\">4A2wyOGLYdnPtAkDbIWV</span>\"
+      \"<span class=sf-dump-key>name</span>\" => \"<span class=sf-dump-str title=\"10 characters\">index-page</span>\"
+      \"<span class=sf-dump-key>locale</span>\" => \"<span class=sf-dump-str title=\"2 characters\">en</span>\"
+      \"<span class=sf-dump-key>path</span>\" => \"<span class=sf-dump-str>/</span>\"
+      \"<span class=sf-dump-key>method</span>\" => \"<span class=sf-dump-str title=\"3 characters\">GET</span>\"
+      \"<span class=sf-dump-key>v</span>\" => \"<span class=sf-dump-str title=\"3 characters\">acj</span>\"
+    </samp>]
+    +<span class=sf-dump-public title=\"Public property\">effects</span>: <span class=sf-dump-note>array:2</span> [<samp data-depth=3 class=sf-dump-compact>
+      \"<span class=sf-dump-key>html</span>\" => \"\"\"
+        <span class=sf-dump-str title=\"16677 characters\">&lt;div wire:id=&quot;4A2wyOGLYdnPtAkDbIWV&quot; wire:initial-data=&quot;{&amp;quot;fingerprint&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;4A2wyOGLYdnPtAkDbIWV&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;index-page&amp;quot;,&amp;quot;locale&amp;quot;:&amp;quot;en&amp;quot;,&amp;quot;path&amp;quot;:&amp;quot;\\/&amp;quot;,&amp;quot;method&amp;quot;:&amp;quot;GET&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;acj&amp;quot;},&amp;quot;effects&amp;quot;:{&amp;quot;listeners&amp;quot;:[]},&amp;quot;serverMemo&amp;quot;:{&amp;quot;children&amp;quot;:[],&amp;quot;errors&amp;quot;:[],&amp;quot;htmlHash&amp;quot;:&amp;quot;e68dd90c&amp;quot;,&amp;quot;data&amp;quot;:{&amp;quot;Restaurant&amp;quot;:[],&amp;quot;FoodPartys&amp;quot;:null,&amp;quot;Banner&amp;quot;:[],&amp;quot;FoodParty&amp;quot;:[]},&amp;quot;dataMeta&amp;quot;:{&amp;quot;modelCollections&amp;quot;:{&amp;quot;Restaurant&amp;quot;:{&amp;quot;class&amp;quot;:&amp;quot;App\\\\Models\\\\RestaurantDetail&amp;quot;,&amp;quot;id&amp;quot;:[1,2],&amp;quot;relations&amp;quot;:[&amp;quot;Orders&amp;quot;,&amp;quot;food&amp;quot;],&amp;quot;connection&amp;quot;:&amp;quot;mysql&amp;quot;,&amp;quot;collectionClass&amp;quot;:null},&amp;quot;Banner&amp;quot;:{&amp;quot;class&amp;quot;:&amp;quot;App\\\\Models\\\\Banner&amp;quot;,&amp;quot;id&amp;quot;:[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],&amp;quot;relations&amp;quot;:[],&amp;quot;connection&amp;quot;:&amp;quot;mysql&amp;quot;,&amp;quot;collectionClass&amp;quot;:null}}},&amp;quot;checksum&amp;quot;:&amp;quot;0741aa232a564fc3ce97d826a7c793a5b6a2a4c06f2fcad5d506fa48a7fe06e3&amp;quot;}}&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">    &lt;div class=&quot;col-span-12 mt-8&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">        &lt;br&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">        &lt;br&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">        &lt;h1&gt;welcome&lt;/h1&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">    &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">&lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\"><span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">&lt;div class=&quot;py-1 px-2 rounded-xl text-xs bg-cyan-400 text-white cursor-pointer font-medium&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">    &lt;div class=&quot;col-span-12 mt-8&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\"><span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">        &lt;h2<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">            class=&quot;text-lg font-medium truncate ml-5 mt-8 flex-1 w-full btn btn-outline-danger rounded-full mx-auto relative text-right bg-white&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">            <span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">            &lt;b&gt;&#1578;&#1576;&#1604;&#1740;&#1594;&#1575;&#1578;&lt;/b&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\"><span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">        &lt;/h2&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">        <span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\"><span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">        &lt;div class=&quot;grid gap-6 mt-2&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">            &lt;div class=&quot;mt-5 intro-x&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                &lt;div class=&quot; w-full&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                    &lt;div class=&quot;tiny-slider&quot; id=&quot;important-notes&quot; style=&quot;transform: none&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                                                    &lt;div class=&quot;h-full rounded-md&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;img alt=&quot;Icewall Tailwind HTML Admin Template&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        class=&quot;image-fit rounded-full h-full font-medium w-full flex items-center justify-center text-2xl&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        src=&quot;http://127.0.0.1:8000/storage/photos/Banners/AUf3Rssou4ZXjk5bOOyyF3Gus5GSLAyqiQHla4Ng.png.png&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                            &lt;div class=&quot;h-full rounded-md&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;img alt=&quot;Icewall Tailwind HTML Admin Template&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        class=&quot;image-fit rounded-full h-full font-medium w-full flex items-center justify-center text-2xl&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        src=&quot;http://127.0.0.1:8000/storage/photos/Banners/ka1gCo0TmLO2dETWVOrkFLhCVmcVCTcTRcpOIU6p.jpg.jpg&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                            &lt;div class=&quot;h-full rounded-md&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;img alt=&quot;Icewall Tailwind HTML Admin Template&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        class=&quot;image-fit rounded-full h-full font-medium w-full flex items-center justify-center text-2xl&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        src=&quot;http://127.0.0.1:8000/storage/public/photos/Banners/0IDpOA6opHopvcl5eYldgIgyamZnC91tCgcrVfu8.jpg.jpg&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                            &lt;div class=&quot;h-full rounded-md&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;img alt=&quot;Icewall Tailwind HTML Admin Template&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        class=&quot;image-fit rounded-full h-full font-medium w-full flex items-center justify-center text-2xl&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        src=&quot;http://127.0.0.1:8000/storage/photos/Banners/ynZuPVCxHPxzjWAMKVq4p9nLAkFM26kCYhQq0rfg.png.png&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                            &lt;div class=&quot;h-full rounded-md&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;img alt=&quot;Icewall Tailwind HTML Admin Template&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        class=&quot;image-fit rounded-full h-full font-medium w-full flex items-center justify-center text-2xl&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        src=&quot;http://127.0.0.1:8000/storage/photos/Banners/nz6CDML9C03ilaoT2pJJSvIc167xqMdSiU82YJZg.png.png&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                            &lt;div class=&quot;h-full rounded-md&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;img alt=&quot;Icewall Tailwind HTML Admin Template&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        class=&quot;image-fit rounded-full h-full font-medium w-full flex items-center justify-center text-2xl&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        src=&quot;http://127.0.0.1:8000/storage/photos/Banners/mRzJgfG7mt5DwaS9yj1Fz8VRXNeuiS1dXIwK9WYr.jpgjpg&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                            &lt;div class=&quot;h-full rounded-md&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;img alt=&quot;Icewall Tailwind HTML Admin Template&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        class=&quot;image-fit rounded-full h-full font-medium w-full flex items-center justify-center text-2xl&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        src=&quot;http://127.0.0.1:8000/storage/photos/Banners/ykwBZwYxbo43DJtBZZaAZjuQiKsek1UMuZapl4Ba.png.png&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                            &lt;div class=&quot;h-full rounded-md&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;img alt=&quot;Icewall Tailwind HTML Admin Template&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        class=&quot;image-fit rounded-full h-full font-medium w-full flex items-center justify-center text-2xl&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        src=&quot;http://127.0.0.1:8000/storage/photos/Banners/bftqVsWCQPnGWteK2LrH1VTKe5qIUrQjSOjGvQud.png.&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                            &lt;div class=&quot;h-full rounded-md&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;img alt=&quot;Icewall Tailwind HTML Admin Template&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        class=&quot;image-fit rounded-full h-full font-medium w-full flex items-center justify-center text-2xl&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        src=&quot;http://127.0.0.1:8000/storage/photos/Banners/60LYzE46lfCzIx3e7mV96JHCWY6AqZN7kqkZhIDp.jpg.jpg&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                            &lt;div class=&quot;h-full rounded-md&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;img alt=&quot;Icewall Tailwind HTML Admin Template&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        class=&quot;image-fit rounded-full h-full font-medium w-full flex items-center justify-center text-2xl&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        src=&quot;http://127.0.0.1:8000/storage/photos/Banners/Annotation_2023-05-10_152118.png.png&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                            &lt;div class=&quot;h-full rounded-md&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;img alt=&quot;Icewall Tailwind HTML Admin Template&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        class=&quot;image-fit rounded-full h-full font-medium w-full flex items-center justify-center text-2xl&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        src=&quot;http://127.0.0.1:8000/storage/photos/Banners/1odZyWr826ODcIghalrJtA5PhWp7WswvAM4qEH2v.png.png&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                            &lt;div class=&quot;h-full rounded-md&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;img alt=&quot;Icewall Tailwind HTML Admin Template&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        class=&quot;image-fit rounded-full h-full font-medium w-full flex items-center justify-center text-2xl&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        src=&quot;http://127.0.0.1:8000/storage/photos/Banners/GITb7GneHqBgj5prQZ0vch5gPWoCx3y7svlhI7jM.png&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                            &lt;div class=&quot;h-full rounded-md&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;img alt=&quot;Icewall Tailwind HTML Admin Template&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        class=&quot;image-fit rounded-full h-full font-medium w-full flex items-center justify-center text-2xl&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        src=&quot;http://127.0.0.1:8000/storage/photos/Banners/ACFSKtAwczpdNkJUKbDC7Pqrv8YQAH6i2uFAhPrK.png.png&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                            &lt;div class=&quot;h-full rounded-md&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;img alt=&quot;Icewall Tailwind HTML Admin Template&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        class=&quot;image-fit rounded-full h-full font-medium w-full flex items-center justify-center text-2xl&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        src=&quot;http://127.0.0.1:8000/storage/photos/Banners/Ovtx7rJExNMkfqkEFXo85764StqRae7AketBZxpk.png.png&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                            &lt;div class=&quot;h-full rounded-md&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;img alt=&quot;Icewall Tailwind HTML Admin Template&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        class=&quot;image-fit rounded-full h-full font-medium w-full flex items-center justify-center text-2xl&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        src=&quot;http://127.0.0.1:8000/storage/photos/Banners/TlnDp3IZFmGuSA016aUnTK5vB6S1tXqKCVStJ7LS.png&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                            &lt;div class=&quot;h-full rounded-md&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;img alt=&quot;Icewall Tailwind HTML Admin Template&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        class=&quot;image-fit rounded-full h-full font-medium w-full flex items-center justify-center text-2xl&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        src=&quot;http://127.0.0.1:8000/storage/photos/Banners/SZq6i0fcYOL6CizU28rnrWwqJuG2mNOHi19Rzna4.png&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                            &lt;div class=&quot;h-full rounded-md&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;img alt=&quot;Icewall Tailwind HTML Admin Template&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        class=&quot;image-fit rounded-full h-full font-medium w-full flex items-center justify-center text-2xl&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        src=&quot;http://127.0.0.1:8000/storage/photos/Banners/BAHL0zD7waiBcPqnrbaqkuZraFym5UQYazn3ysTN.png&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                            &lt;div class=&quot;h-full rounded-md&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;img alt=&quot;Icewall Tailwind HTML Admin Template&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        class=&quot;image-fit rounded-full h-full font-medium w-full flex items-center justify-center text-2xl&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        src=&quot;http://127.0.0.1:8000/storage/photos/Banners/6sBT4JqCraoP0u4OgcSWMoQvnyOjoF1cq6wDX3Ee.png&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                                        &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">            &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">        &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">    &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">&lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\"><span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\"><span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\"><span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\"><span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">&lt;div class=&quot;py-1 px-2 rounded-xl text-xs bg-cyan-400 text-white cursor-pointer font-medium&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">    &lt;h2<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">        class=&quot;text-lg font-medium truncate ml-5 mt-8 flex-1 w-full btn btn-outline-warning rounded-full mx-auto relative text-right bg-white&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">        <span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">        &lt;b&gt;&#1588;&#1593;&#1576;&#1607; &#1607;&#1575;&lt;/b&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">    &lt;/h2&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">    &lt;div class=&quot;grid grid-cols-12 gap-6 mt-5&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;div class=&quot;col-span-12 sm:col-span-6 xl:col-span-3 intro-y&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                    &lt;div class=&quot;report-box zoom-in&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                        &lt;div class=&quot;box p-5&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                            &lt;div class=&quot;flex&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;i data-feather=&quot;shopping-cart&quot; class=&quot;report-box__icon text-theme-21&quot;&gt;&lt;/i&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;div class=&quot;mr-auto&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;div class=&quot;report-box__indicator bg-theme-10 tooltip cursor-pointer&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        title=&quot;&#1578;&#1593;&#1583;&#1575;&#1583; &#1601;&#1585;&#1608;&#1588;&quot;&gt; 2 &lt;i data-feather=&quot;chevron-up&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                            class=&quot;w-4 h-4 mr-0.5&quot;&gt;&lt;/i&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;div class=&quot;mr-auto&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                                            &lt;div class=&quot;report-box__indicator bg-red-500 tooltip cursor-pointer&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                            title=&quot;&#1608;&#1590;&#1593;&#1740;&#1578; &#1601;&#1585;&#1608;&#1588;&#1711;&#1575;&#1607;&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                            &#1576;&#1587;&#1578;&#1607; &#1575;&#1587;&#1578;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                            &lt;i data-feather=&quot;chevron-up&quot; class=&quot;w-4 h-4 mr-0.5&quot;&gt;&lt;/i&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                                    &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                            &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                            &lt;div class=&quot;text-xl font-bold leading-8 mt-6 text-theme-17&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;span class=&quot;text-sm text-gray-700&quot;&gt;&#1578;&#1593;&#1583;&#1575;&#1583; &#1594;&#1584;&#1575;&#1740; &#1605;&#1608;&#1580;&#1608;&#1583; :&lt;/span&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                1<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                            &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                            &lt;div class=&quot;text-xl font-bold leading-8 mt-6 text-theme-17&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;span class=&quot;text-sm text-gray-700&quot;&gt;&#1606;&#1575;&#1605; &#1585;&#1587;&#1578;&#1608;&#1585;&#1575;&#1606; :&lt;/span&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &#1580;&#1608;&#1575;&#1606;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                            &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                            &lt;div class=&quot;text-xl font-bold leading-8 mt-6 text-theme-17&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                                &lt;img src=&quot;http://127.0.0.1:8000/storage/photos/Restaurant/&#1580;&#1608;&#1575;&#1606;.jpg&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    alt=&quot;RestaurantBaner&quot; /&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                            &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                        &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                    &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                            &lt;div class=&quot;col-span-12 sm:col-span-6 xl:col-span-3 intro-y&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                    &lt;div class=&quot;report-box zoom-in&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                        &lt;div class=&quot;box p-5&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                            &lt;div class=&quot;flex&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;i data-feather=&quot;shopping-cart&quot; class=&quot;report-box__icon text-theme-21&quot;&gt;&lt;/i&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;div class=&quot;mr-auto&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;div class=&quot;report-box__indicator bg-theme-10 tooltip cursor-pointer&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        title=&quot;&#1578;&#1593;&#1583;&#1575;&#1583; &#1601;&#1585;&#1608;&#1588;&quot;&gt; 1 &lt;i data-feather=&quot;chevron-up&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                            class=&quot;w-4 h-4 mr-0.5&quot;&gt;&lt;/i&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;div class=&quot;mr-auto&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                                            &lt;div class=&quot;report-box__indicator bg-red-500 tooltip cursor-pointer&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                            title=&quot;&#1608;&#1590;&#1593;&#1740;&#1578; &#1601;&#1585;&#1608;&#1588;&#1711;&#1575;&#1607;&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                            &#1576;&#1587;&#1578;&#1607; &#1575;&#1587;&#1578;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                            &lt;i data-feather=&quot;chevron-up&quot; class=&quot;w-4 h-4 mr-0.5&quot;&gt;&lt;/i&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                        &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                                    &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                            &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                            &lt;div class=&quot;text-xl font-bold leading-8 mt-6 text-theme-17&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;span class=&quot;text-sm text-gray-700&quot;&gt;&#1578;&#1593;&#1583;&#1575;&#1583; &#1594;&#1584;&#1575;&#1740; &#1605;&#1608;&#1580;&#1608;&#1583; :&lt;/span&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                2<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                            &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                            &lt;div class=&quot;text-xl font-bold leading-8 mt-6 text-theme-17&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &lt;span class=&quot;text-sm text-gray-700&quot;&gt;&#1606;&#1575;&#1605; &#1585;&#1587;&#1578;&#1608;&#1585;&#1575;&#1606; :&lt;/span&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                &#1588;&#1575;&#1606;&#1583;&#1740;&#1586;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                            &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                            &lt;div class=&quot;text-xl font-bold leading-8 mt-6 text-theme-17&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                                                &lt;img src=&quot;http://127.0.0.1:8000/storage/photos/Restaurant/&#1588;&#1575;&#1606;&#1583;&#1740;&#1586;.jpg&quot;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    alt=&quot;RestaurantBaner&quot; /&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                            &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                        &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                    &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                        &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">    &lt;br&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">    &lt;br&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">&lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\"><span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\"><span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\"><span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">&lt;div class=&quot;py-1 px-2 rounded-xl text-xs bg-cyan-400 text-white cursor-pointer font-medium&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">    &lt;h2<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">        class=&quot;text-lg font-medium truncate ml-5 mt-8 flex-1 w-full btn btn-outline-success rounded-full mx-auto relative text-right bg-white&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">        &lt;b&gt;&#1601;&#1608;&#1583;&#1662;&#1575;&#1585;&#1578;&#1740;&lt;/b&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">    &lt;/h2&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">    &lt;div class=&quot;grid grid-cols-4 gap-6 mt-2&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">        &lt;div class=&quot;mt-5 intro-x&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">            &lt;div class=&quot;box zoom-in w-full&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                &lt;div class=&quot;tiny-slider&quot; id=&quot;important-notes&quot;&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">                                    &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">            &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">        &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">    &lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">&lt;/div&gt;<span class=\"sf-dump-default sf-dump-ns\">\\r\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\"><span class=\"sf-dump-default sf-dump-ns\">\\n</span></span>
+        <span class=sf-dump-str title=\"16677 characters\">&lt;!-- Livewire Component wire-end:4A2wyOGLYdnPtAkDbIWV --&gt;</span>
+        \"\"\"
+      \"<span class=sf-dump-key>listeners</span>\" => []
+    </samp>]
+    +<span class=sf-dump-public title=\"Public property\">memo</span>: <span class=sf-dump-note>array:6</span> [<samp data-depth=3 class=sf-dump-compact>
+      \"<span class=sf-dump-key>children</span>\" => []
+      \"<span class=sf-dump-key>errors</span>\" => []
+      \"<span class=sf-dump-key>htmlHash</span>\" => \"<span class=sf-dump-str title=\"8 characters\">e68dd90c</span>\"
+      \"<span class=sf-dump-key>data</span>\" => <span class=sf-dump-note>array:4</span> [ &#8230;4]
+      \"<span class=sf-dump-key>dataMeta</span>\" => <span class=sf-dump-note>array:1</span> [ &#8230;1]
+      \"<span class=sf-dump-key>checksum</span>\" => \"<span class=sf-dump-str title=\"64 characters\">0741aa232a564fc3ce97d826a7c793a5b6a2a4c06f2fcad5d506fa48a7fe06e3</span>\"
+    </samp>]
+  </samp>}
+</samp>}
+</pre><script>Sfdump(\"sf-dump-265655310\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+"}},"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): View [layouts.index] not found. at C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php:137)
+[stacktrace]
+#0 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php(79): Illuminate\\View\\FileViewFinder->findInPaths('layouts.index', Array)
+#1 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Factory.php(138): Illuminate\\View\\FileViewFinder->find('layouts.index')
+#2 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Concerns\\ManagesComponents.php(104): Illuminate\\View\\Factory->make('layouts.index', Array)
+#3 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\livewire\\livewire\\src\\Macros\\livewire-view-component.blade.php(5): Illuminate\\View\\Factory->renderComponent()
+#4 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('C:\\\\Users\\\\Ali\\\\Do...')
+#5 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#6 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Users\\\\Ali\\\\Do...', Array)
+#7 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\livewire\\livewire\\src\\ComponentConcerns\\RendersLivewireComponents.php(69): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Users\\\\Ali\\\\Do...', Array)
+#8 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Livewire\\LivewireViewCompilerEngine->evaluatePath('C:\\\\Users\\\\Ali\\\\Do...', Array)
+#9 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\livewire\\livewire\\src\\ComponentConcerns\\RendersLivewireComponents.php(35): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Users\\\\Ali\\\\Do...', Array)
+#10 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Livewire\\LivewireViewCompilerEngine->get('C:\\\\Users\\\\Ali\\\\Do...', Array)
+#11 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#12 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#13 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(69): Illuminate\\View\\View->render()
+#14 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#15 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(906): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#16 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(875): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#17 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#18 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#19 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#21 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#22 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#27 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(799): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#34 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#36 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\livewire\\livewire\\src\\DisableBrowserCache.php(19): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#40 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Livewire\\DisableBrowserCache->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#48 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#49 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#50 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#51 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#52 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#53 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#54 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#55 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#56 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#57 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#58 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#59 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\Ali\\\\Do...')
+#60 {main}
+
+[previous exception] [object] (InvalidArgumentException(code: 0): View [layouts.index] not found. at C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php:137)
+[stacktrace]
+#0 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php(79): Illuminate\\View\\FileViewFinder->findInPaths('layouts.index', Array)
+#1 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Factory.php(138): Illuminate\\View\\FileViewFinder->find('layouts.index')
+#2 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Concerns\\ManagesComponents.php(104): Illuminate\\View\\Factory->make('layouts.index', Array)
+#3 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\storage\\framework\\views\\1f8f034a5f7ce6f2c267827b7074a1cb094cf741.php(6): Illuminate\\View\\Factory->renderComponent()
+#4 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('C:\\\\Users\\\\Ali\\\\Do...')
+#5 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#6 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Users\\\\Ali\\\\Do...', Array)
+#7 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\livewire\\livewire\\src\\ComponentConcerns\\RendersLivewireComponents.php(69): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Users\\\\Ali\\\\Do...', Array)
+#8 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Livewire\\LivewireViewCompilerEngine->evaluatePath('C:\\\\Users\\\\Ali\\\\Do...', Array)
+#9 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\livewire\\livewire\\src\\ComponentConcerns\\RendersLivewireComponents.php(35): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Users\\\\Ali\\\\Do...', Array)
+#10 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Livewire\\LivewireViewCompilerEngine->get('C:\\\\Users\\\\Ali\\\\Do...', Array)
+#11 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#12 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#13 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(69): Illuminate\\View\\View->render()
+#14 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#15 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(906): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#16 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(875): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#17 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#18 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#19 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#21 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#22 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#27 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(799): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#34 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#36 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\livewire\\livewire\\src\\DisableBrowserCache.php(19): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#40 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Livewire\\DisableBrowserCache->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#48 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#49 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#50 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#51 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#52 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#53 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#54 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#55 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#56 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#57 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#58 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#59 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\Ali\\\\Do...')
+#60 {main}
+"} 
