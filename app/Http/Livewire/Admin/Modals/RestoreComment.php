@@ -22,6 +22,7 @@ class RestoreComment extends Component
         $this->RestoreCommentModal = true;
     }
 
+
     public function Restore()
     {
         Comment::withTrashed()->find($this->restoreComment)->restore();

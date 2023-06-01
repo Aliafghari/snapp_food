@@ -7,7 +7,7 @@
         <x-slot name="content">
             <div class="col-span-12 sm:col-span-12">
                 <div class="mt-3">
-                    <div id="file-type-validation" class="p-5">
+                    <div id="file-type-validation" class="p-2">
                         <div class="preview">
                             <div
                                 x-data="{ isUploading: false, progress: 0 }"

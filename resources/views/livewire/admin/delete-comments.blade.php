@@ -49,6 +49,7 @@
                                                     <button class="btn btn-elevated-success w-32 ml-1 mb-2 p-1"
                                                             wire:click="$emit('RestoreComment',{{$comment->id}},'باز گردانی نظر' ,'{{$comment->opinion}}')"
                                                     > بازگردانی نظر
+                                                    
                                                     </button>
                                                 </td>
                                             </tr>

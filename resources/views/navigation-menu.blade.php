@@ -85,7 +85,7 @@
                                 <x-jet-nav-link href="{{ route('restaurantCategory') }}" :active="request()->routeIs('restaurantCategory')"
                                     class="top-menu">
 
-                                    <div class="top-menu__title">رستوران ها</div>
+
                                 </x-jet-nav-link>
                             </li>
                             <br>
@@ -132,6 +132,7 @@
                                 </x-jet-nav-link>
                             </li>
                             <br>
+
                         @endrole
                         @role('seller')
                             <li>

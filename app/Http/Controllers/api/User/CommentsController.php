@@ -71,7 +71,7 @@ class CommentsController extends Controller
                 ['status', 'confirm']
             ])->get();
         } else {
-            return response()->json(['msg' => 'Food Not Exist :(((']);
+            return response()->json(['msg' => 'Food Not Exist :(']);
         }
         if (count($comment) != 0) {
             return CommentsResource::collection($comment);
