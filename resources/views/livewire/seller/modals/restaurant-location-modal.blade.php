@@ -9,17 +9,6 @@
                 <div class="mb-6">
                     <div class="mt-3">
 
-
-                        <label for="Location" class="form-label">لوکیشن رستوران</label>
-
-                        
-                        <x-jet-input-error for="lat" class="mt-2" />
-                        <x-maps-leaflet id="map" :center-point="['lat' => 35.701253490910126, 'long' => 51.34916022406515]" :zoom-level="18" :markers="[['lat' => 35.701253490910126, 'long' => 51.34916022406515]]"
-                            wire:model.click="$emit('saveLocation')"
-                            style="width: 600px; height: 450px; background: #eee; border: 2px solid #aaa;">
-                        </x-maps-leaflet>
-
-
                     </div>
                 </div>
             </div>
@@ -40,7 +29,7 @@
 
         <x-slot name="footer">
             <x-jet-secondary-button wire:click="$set('confirmRestaurantLocationModal', false)"
-                class="btn btn-outline-secondary w-20 ml-1">
+
                 {{ __('لغو') }}
             </x-jet-secondary-button>
 
