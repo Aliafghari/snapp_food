@@ -24,7 +24,7 @@
             @endif
             <!-- message -->
             <div class="text-{{ $textColorCss }} text-lg max-w-xs ">
-
+                {{ $message }}
             </div>
         </div>
     @endif
