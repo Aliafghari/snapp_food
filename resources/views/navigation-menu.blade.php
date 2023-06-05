@@ -132,6 +132,34 @@
                                 </x-jet-nav-link>
                             </li>
                             <br>
+                            <li>
+                                <x-jet-nav-link href="{{ route('ReportCharts') }}" :active="request()->routeIs('ReportCharts')" class="top-menu">
+
+                                    <div class="top-menu__title">گزارش ها و نمودارها</div>
+                                </x-jet-nav-link>
+                            </li>
+                            <br>
+                            <li>
+                                <x-jet-nav-link href="{{ route('CommentManagment') }}" :active="request()->routeIs('CommentManagment')" class="top-menu">
+
+                                    <div class="top-menu__title">مدیریت کامنت ها</div>
+                                </x-jet-nav-link>
+                            </li>
+                            <br>
+                            <li>
+                                <x-jet-nav-link href="{{ route('AllComments') }}" :active="request()->routeIs('AllComments')" class="top-menu">
+
+                                    <div class="top-menu__title">صفحه چت</div>
+                                </x-jet-nav-link>
+                            </li>
+                            <br>
+                            <li>
+                                <x-jet-nav-link href="{{ route('DeletedComment') }}" :active="request()->routeIs('DeletedComment')" class="top-menu">
+
+                                    <div class="top-menu__title">کامنت های حذف شده</div>
+                                </x-jet-nav-link>
+                            </li>
+                            <br>
 
                         @endrole
                         @role('seller')
