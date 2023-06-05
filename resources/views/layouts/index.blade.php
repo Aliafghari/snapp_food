@@ -41,8 +41,7 @@
                         @role('superadmin')
                             <div class="flex items-center mt-5">
                                 <a href="{{ url('/Admin') }}"
-                                    class="btn btn-outline-danger text-indigo-400 font-bold px-2 py-1 h-10 ml-auto text-lg ml-2">Let's
-                                    Go!</a>
+                                    class="btn btn-outline-danger text-indigo-400 font-bold px-2 py-1 h-10 ml-auto text-lg ml-2">Let's Go!</a>
                                 <span
                                     class="btn btn-outline-dark text-indigo-400 font-bold px-2 py-1 h-10 ml-auto text-lg">Hello
                                     {{ auth()->user()->name }}</span>
