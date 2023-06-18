@@ -7,7 +7,7 @@ use App\Models\Orders;
 class OrderCheckObserver
 {
 
-
+    // OrderCheckObserver نظارت می‌کند و در زمان ایجاد یک سفارش، قیمت محصولات سبد خرید را محاسبه و به روزرسانی می‌کند.
     public function creating(Orders $orders)
     {
         $orders->cart->cartFood->map(function ($value) {
