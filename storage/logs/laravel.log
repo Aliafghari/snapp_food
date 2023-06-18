@@ -16882,3 +16882,26 @@ Ensure that the [name, id, data] of the Livewire component wasn't tampered with 
 #43 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\Ali\\\\Do...')
 #44 {main}
 "} 
+[2023-06-06 13:47:11] local.ERROR: The process "C:\xampp\php\php.exe artisan queue:work --once --name=default --queue=default --backoff=0 --memory=128 --sleep=3 --tries=1" exceeded the timeout of 60 seconds. {"exception":"[object] (Symfony\\Component\\Process\\Exception\\ProcessTimedOutException(code: 0): The process \"C:\\xampp\\php\\php.exe artisan queue:work --once --name=default --queue=default --backoff=0 --memory=128 --sleep=3 --tries=1\" exceeded the timeout of 60 seconds. at C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\symfony\\process\\Process.php:1154)
+[stacktrace]
+#0 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\symfony\\process\\Process.php(423): Symfony\\Component\\Process\\Process->checkTimeout()
+#1 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\symfony\\process\\Process.php(249): Symfony\\Component\\Process\\Process->wait()
+#2 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Queue\\Listener.php(181): Symfony\\Component\\Process\\Process->run(Object(Closure))
+#3 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Queue\\Listener.php(90): Illuminate\\Queue\\Listener->runProcess(Object(Symfony\\Component\\Process\\Process), '128')
+#4 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Queue\\Console\\ListenCommand.php(86): Illuminate\\Queue\\Listener->listen(NULL, 'default', Object(Illuminate\\Queue\\ListenerOptions))
+#5 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Queue\\Console\\ListenCommand->handle()
+#6 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#8 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#9 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(661): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#10 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(183): Illuminate\\Container\\Container->call(Array)
+#11 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\symfony\\console\\Command\\Command.php(312): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#12 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(153): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#13 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\symfony\\console\\Application.php(1022): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\symfony\\console\\Application.php(314): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Queue\\Console\\ListenCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#15 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\symfony\\console\\Application.php(168): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#16 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(102): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(155): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#18 C:\\Users\\Ali\\Documents\\GitHub\\snapp_food\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#19 {main}
+"} 
